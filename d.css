@@ -2,7 +2,7 @@
 min-height: 100vh;
 display:flex; 
 flex-direction:column;
-	background: url(bh.png) 50%/ cover;
+	background: url(bh.PNG) 50%/ cover;
   background-color: gray;
 }
 @import url("https://fonts.googleapis.com/css?family=Raleway");
