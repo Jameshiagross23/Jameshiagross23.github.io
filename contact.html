@@ -15,17 +15,18 @@
   background-color:purple;
   }
   .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
+  
    width: 100%;
    color: white;
    text-align: center;
 }
+.card{
+margin:40px;}
+
   </style>
   <css-doodle use="var(--rule)"></css-doodle>
   </head>
-  <body id="body">
+  <body id="bod">
   <div id="leaves">
   <i></i>
   <i></i>
@@ -53,6 +54,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
               <a class="nav-link" style="color:white" aria-current="page" href="index.html" target="_blank">Home</a></li>
+              <li>
             <a class="nav-link"  style="color:white" aria-current="page" href="aboutme.html" target="_blank" >
               About Me
             </a>
@@ -60,14 +62,14 @@
           <li class="nav-item">
             <a class="nav-link" style="color:white" aria-current="page" href="resume.html" target="_blank">Resume</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="color:white" aria-current="page"  href="contact.html" target="_blank">Contact</a>
-          </li>
           </ul>
           <ul class="navbar-nav d-none d-lg-block px-4">
             <li class="nav-item m-0"><a class="navbar-brand m-0" href="index.html"><img src="logo_nnawzb_c_scale,w_339.jpg" alt="logo" width="200" height="200px"></a></li>
           </ul>
           <ul class="navbar-nav me-auto">
+		            <li class="nav-item">
+            <a class="nav-link active" style="color:white" aria-current="page"  href="contact.html" target="_blank">Contact</a>
+          </li>
             <li class="nav-item"><a class="nav-link" style="color:white" aria-current="page" href="course-work.html" target="_blank">Course Work</a></li>
             <li class="nav-item"><a class="nav-link" style="color:white" aria-current="page" href="portfolio.html" target="_blank">Portfolio</a></li>
   
@@ -75,13 +77,15 @@
       </div>
     </div>
   </nav>
-<h1> If you would like to have a discussion contact me at:  <a href="mailto:jameshia_gross@insideranken.org">jameshia_gross@insideranken.org</a>
-<h2 class="pie">Or Fill Out The Form Below:<br>
-<button><a class="form-link" href="https://form.jotform.com/232724262859160" 
-target="_blank">Cick Here!!</a></button></h1>
-</h2>
-<div class="footer">
-    <p style="color:white">&copy; Connecting You To Meaningful Content</p>
+  <div class="card align-self-center" style="width: 24rem; height:20rem">
+
+  <div class="card-body">
+    <h5 class="card-title">If you would like to have a discussion contact me at:  <a href="mailto:jameshia_gross@insideranken.org">jameshia_gross@insideranken.org</a>.<br> Or Fill Out The Form Below</h5>
+    <a href="https://form.jotform.com/232724262859160" target="_blank" class="btn btn-primary">Click Here!!</a>
+  </div>
+</div>
+<div id="footer">
+    <p style="color:white">&copy; 2023 Connecting You To Meaningful Content</p>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
