@@ -438,4 +438,14 @@ display:flex
   color:white;
   font-size:30px;
   }
+ .navbar{
+  padding-left: auto;
+ }
+ .card-img-top1{
+  width: 16rem;
+  height: 200px;
+ }
+ .nav-2 {
+text-align: center;
+ }
  
